@@ -4,7 +4,7 @@ filtered = filter_dishes(DF)
 
 
 if filtered.empty:
-st.info("해당 조건에 맞는 메뉴가 없습니다. 필터를 줄이거나 'Surprise me'를 눌러보세요.")
+    st.info("해당 조건에 맞는 메뉴가 없습니다. 필터를 줄이거나 'Surprise me'를 눌러보세요.")
 else:
 # Show top 5
 to_show = filtered.sample(n=min(5, len(filtered)), random_state=42)
