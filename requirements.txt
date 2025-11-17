@@ -3,3 +3,4 @@ plotly
 pycountry
 requests
 beautifulsoup4
+lxml
